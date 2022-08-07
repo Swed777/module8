@@ -7,7 +7,7 @@ print('-----------------------')
 # S = 1 - 1/2 + 1/4 - 1/8 + … (-1)**N * 1/2**N 
 summ = 1
 n = int(input('Введите число n: '))
-for row in range(n):
-  summ = (-1)**n * 1/2**n
+for row in range(1, n + 1):
+   summ += (-1)**row * 1/2**row
 print('При n =',n, '--> S =', summ)
 print('=============+++++++==============')

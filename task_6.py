@@ -19,3 +19,15 @@ while long >= 12:
 print('-->', count, 'раз нужно сложить лист бумаги')
 
 print('=============+++++++++==============')
+
+""" Рекомендации куратора Никиты Фомина:
+
+size_letter = int(input('Размер квадратного письма: '))
+envelop = 12
+fold = 0
+for i in range(size_letter, envelop - 1, -1):
+    if size_letter > envelop:
+        size_letter /= 2
+        fold += 2
+print('Нужно сложить письмо', fold, 'раз')
+"""

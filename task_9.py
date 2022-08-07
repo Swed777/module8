@@ -13,7 +13,7 @@ denominator = 1
 
 x = int(input('Введите число х: '))
 
-for i in range(1, 6):
+for i in range(1, 7): # Число скобок - 6, поэтому диапазон - 7
   numberl *= x - (2 ** i - 1)
   denominator *= x - 2 ** i
 
